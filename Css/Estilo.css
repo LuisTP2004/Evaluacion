@@ -1,0 +1,324 @@
+
+header {
+    background-color: rgb(201, 186, 146);
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
+    align-items: center;
+    width: 100%;
+   
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.Navegacion {
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+ul{
+    list-style: none;
+}
+
+ul button{
+    background-color: black;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+}
+
+ul button:hover{
+    background-color: red;
+}
+
+.Seccion1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Seccion1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Boton1{
+    background-color: black;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.Boton1:hover{
+    background-color: red;
+}
+
+.contenedor1 {
+    height: 40px;
+    width: 90px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+   
+   
+}
+
+.contenedor1 img {
+    width: 70px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 55px;
+    bottom: 40px;
+    
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    top: 5px;
+  
+}
+
+
+
+.Seccion1 h1 {
+    text-align: center;
+    position: relative;
+}
+
+.Seccion1 h2 {
+    text-align: center;
+    position: relative;
+}
+
+
+.Seccion1 a {
+    text-align: center;
+    position: relative;
+    left: 800px;
+}
+
+/* Diseño 3D*/
+
+.Seccion3 h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.Seccion3 p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 18px;
+    
+}
+
+.imagenes3D {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+.imagenes3D p {
+    text-align: center;
+    
+}
+
+.Seccion3 button {
+    margin-top: 40px;
+}
+
+.imagen3D1 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #eef1e9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 50%;
+    background-color: white;
+
+}
+
+
+
+.imagen3D2 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+    
+}
+
+.imagen3D3 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+    
+}
+
+
+.imagenes3D img {
+    transition: 500ms;
+    position: relative;
+    border: 6px solid #7c8271;
+    right: 6.5px;
+}
+
+.imagenes3D img:hover {
+    transform: scale(1.23);
+}
+
+
+
+/* Diseño web*/
+
+.Seccion4{
+    text-align: center;
+    background-color: bisque;
+    height: 800px;
+}
+
+.Seccion4 h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 15px;
+}
+.imagenesWeb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.imagenesWeb p {
+    text-align: center;
+}
+
+.imagenweb1 {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+    margin-left: 70px;
+}
+
+.imagenesWeb img {
+    transition: 300ms;
+    position: relative;
+    
+}
+
+.imagenesWeb img:hover {
+    transform: scale(1.23);
+}
+
+.imagenweb2 {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+
+}
+
+.imagenweb3 {
+    width: 18%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+    position: relative;
+    margin-right: 100px;
+}
+
+.Seccion4 button {
+    background-color: white;
+    padding: 15px 25px;
+    margin-top: 30px;
+}
+
+.Seccion4 button:hover{
+    background-color: red;
+}
+
+.Seccion4 img{
+    border: 5px double black;
+    position: relative;
+    right: 5px;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 13px;
+}
+
+footer h2 {
+    text-align: center;
+    color:white;
+}
+
+footer a {
+    color: white;
+}
+
+
+.Redes {
+    text-align: center;
+    color: white;
+}
+
+
+.Seccion3 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Seccion4 p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+

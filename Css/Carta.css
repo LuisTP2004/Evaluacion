@@ -1,0 +1,409 @@
+
+header {
+    background-color: rgb(201, 186, 146);
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
+    align-items: center;
+    width: 100%;
+   
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.Navegacion {
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 16px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul button{
+    background-color: black;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;    
+}
+
+ul button:hover{
+    background-color: red;
+}
+
+.Seccion1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Seccion1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Boton1{
+    background-color: black;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.Boton1:hover{
+    background-color: red;
+}
+
+.contenedor1 {
+    height: 40px;
+    width: 90px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+   
+   
+}
+
+.contenedor1 img {
+    width: 70px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 55px;
+    bottom: 40px;
+    
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    top: 5px;
+  
+}
+
+
+.Seccion4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height:600px
+}
+
+.Seccion4 h1{
+    position: relative;
+    top: 15px;
+}
+
+.imagenesWeb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.imagenesWeb p {
+    text-align: center;
+}
+
+.imagenweb1 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+
+}
+
+.imagenesWeb img {
+    transition: 300ms;
+    position: relative;
+}
+
+.imagenesWeb img:hover {
+    transform: scale(1.23);
+}
+
+.imagenweb2 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+
+}
+
+.imagenweb3 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+}
+
+.Seccion4 button {
+    background-color: paleturquoise;
+    padding: 15px 25px;
+}
+
+.Seccion4 button:hover{
+    background-color: red;
+}
+
+.Seccion4 img{
+    border: 5px double black;
+    position: relative;
+    right: 5px;
+}
+/*Diseño Inteligencia articial*/
+
+.Seccion5{
+font-family: Arial, Helvetica, sans-serif;
+height: 600px;
+}
+
+.Seccion5 h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 15px;
+}
+
+.Seccion5 p {
+    text-align: center
+}
+
+.Seccion4{
+    background-color: rgb(135, 131, 82);
+    
+}
+
+.AI {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.AI img:hover{
+    transform: scale(1.23);
+}
+
+.AI img{
+    transition: 300ms;
+    position: relative;
+}
+
+.Seccion5 img{
+    border: 5px inset rebeccapurple;
+    position: relative;
+    right: 5px;
+}
+
+.ImagenAI1 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 50%;
+    background-color: white;
+
+}
+
+.ImagenAI1 button {
+    margin-top: 30px;
+}
+
+.ImagenAI2 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+
+}
+
+.ImagenAI2 button {
+    margin-top: 30px;
+}
+
+.ImagenAI3 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+}
+
+.ImagenAI3 button {
+    margin-top: 30px;
+}
+
+.Seccion5 button {
+    background-color: blanchedalmond;
+    padding: 15px 25px;
+}
+
+.Seccion5 button:hover{
+    background-color: red;
+}
+
+.Seccion5{
+    background-color: aquamarine;
+}
+
+
+/* Seccion 6 */
+
+.Seccion6 {
+    text-align: center;
+    height: 650px;
+}
+
+.Seccion6 h1{
+    position: relative;
+    top: 30px;
+}
+
+
+.imagenesgrafico {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagenesgrafico p {
+    text-align: center;
+}
+
+.imagen1grafico {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+    position: relative;
+    top: 40px;
+    
+}
+
+.Seccion6 img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+
+.imagen1grafico img{
+    border: 5px dotted black;
+    width: 100%;
+    position: relative;
+    right: 5px;
+}
+
+.imagen2grafico {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    background-color: white;
+
+}
+
+.imagen2grafico img{
+    border:  5px dashed black;
+    position: relative;
+    right: 5px;
+}
+
+
+
+.Seccion6 h1{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.Seccion6 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Seccion6 h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Seccion61 p{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.Seccion61 h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Seccion6{
+    background-color: bisque;
+}
+
+.Seccion61{
+    background-color: bisque;
+}
+
+/*footer*/
+footer {
+    background-color: black;
+}
+
+footer h1 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+footer h2 {
+    text-align: center;
+    color:white;
+}
+
+footer a {
+    color: white;
+}
+
+
+.Redes {
+    text-align: center;
+    color: white;
+}
+
+button{
+    background-color: white;
+    padding: 15px 25px;
+    position: relative;
+    top: 10px;
+}
+
+button:hover{
+    background-color: red;
+}
